@@ -1,2 +1,2 @@
 # neogcamp
-Neog Camp - Level Zero
+Neog Camp - Exercises
