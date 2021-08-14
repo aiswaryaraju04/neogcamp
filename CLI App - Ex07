@@ -1,0 +1,29 @@
+function add(numOne, numTwo)
+{
+  console.log("numOne :", numOne, "numTwo :", numTwo)
+  var sum = numOne + numTwo;
+  return sum;
+}
+
+var result = add(2,5);
+console.log("The sum is " + result)
+
+function difference(numOne, numTwo)
+{
+  console.log("numOne :", numOne, "numTwo :", numTwo)
+  var diff = numOne - numTwo;
+  return diff;
+}
+
+var result = difference(8,5);
+console.log("The difference is " + result)
+
+function multiply(numOne, numTwo)
+{
+  console.log("numOne :", numOne, "numTwo :", numTwo)
+  var product = numOne * numTwo;
+  return product;
+}
+
+var result = multiply(5,5);
+console.log("The product is " + result)
