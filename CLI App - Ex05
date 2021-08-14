@@ -1,0 +1,12 @@
+var readlineSync = require('readline-sync');
+
+var userAge = readlineSync.question(" Am I greater than 25? ");
+
+if(userAge === "yes")
+{
+  console.log("You are older than 25 years ")
+}
+else
+{
+  console.log("You are less than 25 years ")
+}
