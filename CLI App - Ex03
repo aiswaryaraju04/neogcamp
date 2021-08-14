@@ -1,0 +1,14 @@
+var readlineSync = require('readline-sync');
+
+var userName = readlineSync.question('May I have your name? ');
+
+var welcomeMessage = 'Welcome '+ userName;
+console.log(welcomeMessage)
+
+or
+
+var readlineSync = require('readline-sync');
+
+var userName = readlineSync.question('May I have your name? ');
+
+console.log('Welcome '+ userName)
