@@ -1,0 +1,28 @@
+var readlineSync = require('readline-sync');
+
+var score = 0;
+var userAge = readlineSync.question(" Am I greater than 25? ");
+
+if(userAge === "yes")
+{
+  console.log("You are older than 25 years ")
+  score++;
+  console.log('Score is '+score)
+}
+else
+{
+  console.log("You are less than 25 years ")
+}
+
+var userFood = readlineSync.question(" Do you like biriyani? ");
+
+if(userFood === "yes")
+{
+  console.log("You like biriyani ")
+  score++;
+  console.log('Score is '+score)
+}
+else
+{
+  console.log("You don't like biriyani ")
+}
