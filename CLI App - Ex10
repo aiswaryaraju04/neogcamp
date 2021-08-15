@@ -1,0 +1,9 @@
+var readlineSync = require("readline-sync");
+
+var groceryList = ["chilly", "Brinjal", "Tomato","Onion", "Potato"];
+
+console.log("First item of the list is "+groceryList[0]);
+console.log("Third item of the list is "+groceryList[2]);
+console.log("Last item of the list is "+groceryList[4]);
+ 
+ //console.log(groceryList[groceryList.length - 1]);
